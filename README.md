@@ -49,9 +49,11 @@ ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.private.der
 
 ## Como criar certificado .DER
 
+```cmd
 openssl x509 -in teste.cert.pem -out teste.cert.der -outform DER
 openssl x509 -in root-CA.crt -out root-CA.der -outform DER
 openssl rsa -in teste.private.key -out teste.private.der -outform DER
+```
 
 ## Liberar acesso a porta serial
 
