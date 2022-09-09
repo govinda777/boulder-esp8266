@@ -18,6 +18,7 @@ class Mqtt:
         self.MQTT_HOST = "a12sdqmvxrmcs4-ats.iot.us-east-1.amazonaws.com"
 
         self.mqtt_client = MQTTClient
+        
 
     def check_msg(self):
         self.mqtt_client.check_msg()

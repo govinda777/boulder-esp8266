@@ -70,6 +70,7 @@ sudo chmod a+rw /dev/ttyUSB0
 
 ## Links
 
+* http://www.poncolhijau.web.id/2020/05/kontrol-led-rgb-ws2812b-dengan-android.html
 * https://notebook.community/Wei1234c/Elastic_Network_of_Things_with_MQTT_and_MicroPython/notebooks/test/MQTT%20client%20test%20-%20MicroPython
 * https://techtotinker.blogspot.com/2020/12/022-esp32-micropython-mqtt-part-2.html
 * https://create.arduino.cc/projecthub/B45i/getting-started-with-arduino-cli-7652a5
