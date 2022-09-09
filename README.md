@@ -18,21 +18,23 @@ esptool.py --chip esp8266 --port /dev/ttyUSB0 erase_flash
 esptool.py --port /dev/ttyUSB0 --chip esp8266 --baud 115200 write_flash --flash_size=detect -fm dout 0 esp8266-20210902-v1.17.bin
 ```
 
-##  Enviar os arquivos para o esp8266
+## Deploy no ESP8266
 
 ```cmd
-cd src && \
-ampy -p /dev/ttyUSB0 get boot.py && \
-ampy -p /dev/ttyUSB0 put boot.py  && \
-ampy -p /dev/ttyUSB0 put main.py  && \
-ampy -p /dev/ttyUSB0 put mqtt.py  && \
-ampy -p /dev/ttyUSB0 put wifi.py  && \
-ampy -p /dev/ttyUSB0 put micropython/awsCer/root-CA.der  && \
-ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.cert.der  && \
-ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.private.der  && \
-ampy -p /dev/ttyUSB0 ls
+    
+    make deploy
+
 ```
-###  Como entrar no dispositivo
+
+## Como listar os arquivos
+
+```cmd
+
+ampy -p /dev/ttyUSB0 ls
+
+```
+
+##  Como entrar no dispositivo
 
 ```cmd
 
