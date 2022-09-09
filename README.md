@@ -20,6 +20,7 @@ esptool.py --port /dev/ttyUSB0 --chip esp8266 --baud 115200 write_flash --flash_
 
 ##  Enviar os arquivos para o esp8266
 
+```cmd
 ampy -p /dev/ttyUSB0 get boot.py
 ampy -p /dev/ttyUSB0 ls
 
@@ -31,7 +32,7 @@ ampy -p /dev/ttyUSB0 put infra/wifi.py infra/wifi.py
 ampy -p /dev/ttyUSB0 put micropython/awsCer/root-CA.der
 ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.cert.der
 ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.private.der
-
+```
 ## Exemplo de Execução
 
 - Execução do programa em micropython
