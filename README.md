@@ -21,9 +21,7 @@ esptool.py --port /dev/ttyUSB0 --chip esp8266 --baud 115200 write_flash --flash_
 ## Deploy no ESP8266
 
 ```cmd
-    
-    make deploy
-
+make deploy
 ```
 
 ## Como listar os arquivos
@@ -69,3 +67,19 @@ openssl rsa -in teste.private.key -out teste.private.der -outform DER
 ```cmd
 sudo chmod a+rw /dev/ttyUSB0 
 ```
+
+## Links
+
+* https://notebook.community/Wei1234c/Elastic_Network_of_Things_with_MQTT_and_MicroPython/notebooks/test/MQTT%20client%20test%20-%20MicroPython
+* https://techtotinker.blogspot.com/2020/12/022-esp32-micropython-mqtt-part-2.html
+* https://create.arduino.cc/projecthub/B45i/getting-started-with-arduino-cli-7652a5
+* https://github.com/ExploreEmbedded/Hornbill-Examples/tree/master/arduino-esp32/AWS_IOT
+* https://platformio.org/lib/show/1743/AWS-SDK-ESP
+* https://pythonforundergradengineers.com/micropython-install.html
+* https://micropython.org/unicorn/
+* https://docs.micropython.org/en/latest/reference/packages.html
+* https://thingspeak.com/
+* https://pubsubclient.knolleary.net/api
+* https://nerdyelectronics.com/how-to-connect-nodemcu-to-aws-iot-core/
+* [Tutorial configuração Thing](https://www.youtube.com/watch?v=28FS2qix2u4&ab_channel=ElectronicsInnovation)
+* [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin)
