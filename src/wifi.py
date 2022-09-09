@@ -1,4 +1,5 @@
 import network
+import time
 
 class Wifi:
 
@@ -21,6 +22,7 @@ class Wifi:
             wlan.active(True)
             wlan.connect(self.__ssid, self.__pw)
             while not wlan.isconnected():
+                time.sleep(2)
                 print(".")
                 pass
 

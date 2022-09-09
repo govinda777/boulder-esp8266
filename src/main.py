@@ -30,7 +30,7 @@ except Exception as e:
 while True: 
     try: 
         time.sleep(2)
-        #mqtt.wait_msg() #blocking 
+        
         mqtt.check_msg() #non-blocking 
          
     except KeyboardInterrupt: 
