@@ -21,18 +21,25 @@ esptool.py --port /dev/ttyUSB0 --chip esp8266 --baud 115200 write_flash --flash_
 ##  Enviar os arquivos para o esp8266
 
 ```cmd
-ampy -p /dev/ttyUSB0 get boot.py
+cd src && \
+ampy -p /dev/ttyUSB0 get boot.py && \
+ampy -p /dev/ttyUSB0 put boot.py  && \
+ampy -p /dev/ttyUSB0 put main.py  && \
+ampy -p /dev/ttyUSB0 put mqtt.py  && \
+ampy -p /dev/ttyUSB0 put wifi.py  && \
+ampy -p /dev/ttyUSB0 put micropython/awsCer/root-CA.der  && \
+ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.cert.der  && \
+ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.private.der  && \
 ampy -p /dev/ttyUSB0 ls
-
-ampy -p /dev/ttyUSB0 put boot.py
-ampy -p /dev/ttyUSB0 put main.py
-ampy -p /dev/ttyUSB0 mkdir infra
-ampy -p /dev/ttyUSB0 put infra/mqtt.py infra/mqtt.py
-ampy -p /dev/ttyUSB0 put infra/wifi.py infra/wifi.py
-ampy -p /dev/ttyUSB0 put micropython/awsCer/root-CA.der
-ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.cert.der
-ampy -p /dev/ttyUSB0 put micropython/awsCer/teste.private.der
 ```
+###  Como entrar no dispositivo
+
+```cmd
+
+screen /dev/ttyUSB0 115200
+
+```
+
 ## Exemplo de Execução
 
 - Execução do programa em micropython
