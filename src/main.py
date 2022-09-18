@@ -6,8 +6,12 @@ import sys
 from mqtt import Mqtt
 from wifi import Wifi
 
-WIFI_SSID = "VIVOFIBRA-6CA1"
-WIFI_PW = "Pedro2203"
+WIFI_SSID = "ACADEMIA BOULDER"
+WIFI_PW = "boulderv10"
+
+# Local
+# WIFI_SSID = "VIVOFIBRA-6CA1"
+# WIFI_PW = "Pedro2203"
 mqtt = Mqtt()
 
 #start execution
