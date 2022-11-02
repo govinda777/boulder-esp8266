@@ -4,6 +4,14 @@ Projeto responsável por controlar a sequencia de luzes que ficaram ligadas.
 
 ![main](./docs/img/main.jpg)
 
+## Diagrama arquitetura solução
+
+![main](./docs/Diagrama%20arquitetura-Arquitetura%20Solucao.drawio.png)
+
+## Diagrama arquitetura sistema
+
+![main](./docs/Diagrama%20arquitetura-Arquitetura%20Sistema.drawio.png)
+
 ## Como configurar
 
 * [pythom3](https://linuxize.com/post/how-to-install-python-3-9-on-ubuntu-20-04/)
