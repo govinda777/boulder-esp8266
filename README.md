@@ -32,6 +32,12 @@ Projeto responsável por controlar a sequencia de luzes que ficaram ligadas.
 * [esptool](https://micropython.org/download/esp8266/) (python -m pip install esptool)
 * [screen](/...) (sudo apt install screen)
 
+## Baixe o firmware micropython
+
+https://micropython.org/resources/firmware/esp8266-20210902-v1.17.bin
+
+ou utilize o que está no repositório: [esp8266-20210902-v1.17.bin](./esp8266-20210902-v1.17.bin)
+
 ##  Instalar firmware micropython esp8266
 
 ```cmd
