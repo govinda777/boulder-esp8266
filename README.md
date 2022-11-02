@@ -2,6 +2,8 @@
 
 Projeto responsável por controlar a sequencia de luzes que ficaram ligadas.
 
+![main](./docs/img/main.jpg)
+
 ## Como configurar
 
 * [pythom3](https://linuxize.com/post/how-to-install-python-3-9-on-ubuntu-20-04/)
