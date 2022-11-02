@@ -80,7 +80,7 @@ screen /dev/ttyUSB0 115200
 ![Mensagem no terminal](/docs/img/informativo-de-msg.jpeg?raw=true "Mensagem no terminal")
 
 - Listagem de arquivos
-![Listagem de arquivos](/docs/img/ls-no-esp.jpeg?raw=true "Listagem de arquivos")
+- ![Listagem de arquivos](/docs/img/ls-no-esp.jpeg?raw=true "Listagem de arquivos")
 
 ## Como criar certificado .DER
 
