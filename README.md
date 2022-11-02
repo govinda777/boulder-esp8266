@@ -12,6 +12,18 @@ Projeto responsável por controlar a sequencia de luzes que ficaram ligadas.
 
 ![main](./docs/Diagrama%20arquitetura-Arquitetura%20Sistema.drawio.png)
 
+## Principais tecnologias
+
+* AWS IOT (MQTT Service Broker)
+* AWS IAM POLICY
+* Autenticação por Certificado (der, pem, key)
+* Mongo DB
+* NODE MCU 8266
+* Micropython
+* Esptool
+* make (command)
+
+
 ## Como configurar
 
 * [pythom3](https://linuxize.com/post/how-to-install-python-3-9-on-ubuntu-20-04/)
@@ -77,6 +89,15 @@ openssl rsa -in teste.private.key -out teste.private.der -outform DER
 ```cmd
 sudo chmod a+rw /dev/ttyUSB0 
 ```
+
+## My Profile Resume
+
+| [<img src="https://avatars.githubusercontent.com/u/498332?s=400&u=9b7a8aa8743ec4dd3c84d8c382aa31fb1b6c8abf&v=4" width=115><br><sub>Govinda</sub>](https://github.com/govinda777) |
+| :---: |
+
+
+[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://www.buymeacoffee.com/govinda777)
+
 
 ## Links
 
